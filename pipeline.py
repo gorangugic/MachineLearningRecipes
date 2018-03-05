@@ -15,6 +15,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size= .5) #splits
 
 # TRAIN CLASSIFIER
 
+# from sklearn import tree #replaced with Kneighbor
 # my_classifier = tree.DecisionTreeClassifier() #replaced with Kneighbor
 my_classifier = KNeighborsClassifier()
 
